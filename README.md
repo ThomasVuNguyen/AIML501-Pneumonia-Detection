@@ -38,6 +38,10 @@ Screenshots are in `screenshots/`. Both models label a dog, a tree and a car PNE
 
 Image credits: Kaggle *Chest X-Ray Images (Pneumonia)* test set; Wikimedia Commons: Mikael Häggström, *Normal posteroanterior (PA) chest radiograph* and *X-ray of lobar pneumonia* (CC0); Aciarium, *Search and Rescue Dog, Austrian Red Cross Perchtoldsdorf* (CC BY 4.0); Bob Embleton, *Field and Oak Tree* (CC BY-SA 2.0); Daniel Case, *Side view of parked Polizia di Stato car* (CC BY-SA 3.0).
 
+## Report and presentation
+- One-page Day 1 + Day 2 report: [`report/AIML501 Day 2 Streamlit Deployment Report.docx`](report/AIML501%20Day%202%20Streamlit%20Deployment%20Report.docx) (built by `report/build_day2_report.py`)
+- Group presentation (13 slides, speaker notes per presenter): https://claude.ai/artifact/2iMbJBhMnygeufLEs94vGS
+
 ## Run locally
 ```bash
 pip install -r requirements.txt
