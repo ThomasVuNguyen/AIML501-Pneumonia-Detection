@@ -105,7 +105,7 @@ def no_borders(table):
 # ---------- Header ----------
 doc.add_paragraph('AIML-501 Pneumonia Classifier: Day 1 and Day 2', style='Title')
 p = para(after=4)
-run(p, 'Group: [Member 1], [Member 2], [Member 3], [Member 4]  ·  November 21, 2026  ·  Live app: ', size=9, color=GREY)
+run(p, 'Group: [Member 1], [Member 2], [Member 3], Thomas Nguyen  ·  November 21, 2026  ·  Live app: ', size=9, color=GREY)
 run(p, 'aiml501-pneumonia-detection.streamlit.app', size=9, bold=True)
 run(p, '  ·  Code: ', size=9, color=GREY)
 run(p, 'github.com/ThomasVuNguyen/AIML501-Pneumonia-Detection', size=9, bold=True)

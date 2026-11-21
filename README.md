@@ -40,7 +40,7 @@ Image credits: Kaggle *Chest X-Ray Images (Pneumonia)* test set; Wikimedia Commo
 
 ## Report and presentation
 - One-page Day 1 + Day 2 report: [`report/AIML501 Day 2 Streamlit Deployment Report.docx`](report/AIML501%20Day%202%20Streamlit%20Deployment%20Report.docx) (built by `report/build_day2_report.py`)
-- Group presentation (13 slides, speaker notes per presenter): https://claude.ai/artifact/2iMbJBhMnygeufLEs94vGS
+- Group presentation (6 slides, speaker notes per presenter): https://claude.ai/artifact/2iMbJBhMnygeufLEs94vGS
 
 ## Run locally
 ```bash
