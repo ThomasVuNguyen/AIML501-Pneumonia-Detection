@@ -31,10 +31,12 @@ Day 1 test-set results:
 | `test_images/ext_normal.jpg` (external, adult) | NORMAL | **PNEUMONIA** | 73.2% | NORMAL | 63.3% |
 | `test_images/ext_pneumonia.jpg` (external, adult) | PNEUMONIA | PNEUMONIA | 97.4% | PNEUMONIA | 99.9% |
 | `test_images/unrelated_dog.jpg` | Not an X-ray | **PNEUMONIA** | 99.7% | **PNEUMONIA** | 100.0% |
+| `test_images/unrelated_tree.jpg` | Not an X-ray | **PNEUMONIA** | 97.4% | **PNEUMONIA** | 98.6% |
+| `test_images/unrelated_car.jpg` | Not an X-ray | **PNEUMONIA** | 95.4% | **PNEUMONIA** | 96.5% |
 
-Screenshots are in `screenshots/`. Both models give a confident NORMAL/PNEUMONIA label to a dog photo: a 2-class softmax has no "not an X-ray" option.
+Screenshots are in `screenshots/`. Both models label a dog, a tree and a car PNEUMONIA with 95–100% confidence: a 2-class softmax has no "not an X-ray" option.
 
-Image credits: Kaggle *Chest X-Ray Images (Pneumonia)* test set; Wikimedia Commons: Mikael Häggström, *Normal posteroanterior (PA) chest radiograph* and *X-ray of lobar pneumonia* (CC0); Aciarium, *Search and Rescue Dog, Austrian Red Cross Perchtoldsdorf* (CC BY 4.0).
+Image credits: Kaggle *Chest X-Ray Images (Pneumonia)* test set; Wikimedia Commons: Mikael Häggström, *Normal posteroanterior (PA) chest radiograph* and *X-ray of lobar pneumonia* (CC0); Aciarium, *Search and Rescue Dog, Austrian Red Cross Perchtoldsdorf* (CC BY 4.0); Bob Embleton, *Field and Oak Tree* (CC BY-SA 2.0); Daniel Case, *Side view of parked Polizia di Stato car* (CC BY-SA 3.0).
 
 ## Run locally
 ```bash
